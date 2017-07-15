@@ -1,6 +1,7 @@
 // Copyright 2017 plasma-effect
 // this game is released under MIT License
 // see at LICENSE.txt
+
 var canvas;
 var ctx;
 function write_text(text, x, y, color, size) {

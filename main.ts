@@ -392,6 +392,7 @@ function clicked(e: MouseEvent)
                 }
                 text = encodeURIComponent(text);
                 var tag = "fire_ball_room";
+                
                 window.open("https://twitter.com/intent/tweet?text=" + text + "&hashtags=" + tag + "&url=" + url);
             }
             else
