@@ -1,7 +1,6 @@
 // Copyright 2017 plasma-effect
 // this game is released under MIT License
 // see at LICENSE.txt
-
 var canvas;
 var ctx;
 function write_text(text, x, y, color, size) {
@@ -299,7 +298,7 @@ function clicked(e) {
                         text = text + "あまりうまく分けられなかった…";
                     }
                     text = encodeURIComponent(text);
-                    var tag = "fire_ball_room";
+                    var tag = "fire_ball";
                     window.open("https://twitter.com/intent/tweet?text=" + text + "&hashtags=" + tag + "&url=" + url);
                 }
                 else {
