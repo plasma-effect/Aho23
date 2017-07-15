@@ -298,7 +298,7 @@ function clicked(e) {
                         text = text + "あまりうまく分けられなかった…";
                     }
                     text = encodeURIComponent(text);
-                    var tag = "bugs_room";
+                    var tag = "fire_ball_room";
                     window.open("https://twitter.com/intent/tweet?text=" + text + "&hashtags=" + tag + "&url=" + url);
                 }
                 else {
